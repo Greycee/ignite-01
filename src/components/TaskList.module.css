@@ -1,0 +1,31 @@
+.listItem {
+  display: flex;
+  width: 850px;
+  background: var(--gray-500);
+  color: var(--gray-100);
+  padding: 16px;
+  border-radius: 8px;
+  margin: 12px auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.trashIcon {
+  color: var(--gray-300)
+}
+
+.trashIcon:hover {
+  color: var(--danger)
+}
+
+.checked {
+  color: var(--gray-300);
+  text-decoration: line-through;
+  width: 750px;
+}
+
+.unchecked {
+  width: 750px;
+}

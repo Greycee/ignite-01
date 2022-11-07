@@ -1,0 +1,27 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 60px auto 0;
+}
+
+.created {
+  color: var(--blue)
+}
+
+.concluded {
+  color: var(--purple)
+}
+
+.counter {
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  margin-left: 8px;
+}

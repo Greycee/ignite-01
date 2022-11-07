@@ -1,0 +1,14 @@
+.emptyState {
+  color: var(--gray-300);
+  margin: auto;
+  width: 850px;
+  display: grid;
+  justify-content: center;
+  padding: 64px;
+  border-top: 1px solid var(--gray-400)
+}
+
+.icon {
+  justify-self: center;
+  margin-bottom: 16px;
+}
